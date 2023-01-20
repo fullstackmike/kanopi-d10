@@ -1,0 +1,25 @@
+uuid: 4e9ebe84-d79f-4670-b8b7-7ffae85506a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.genekey_shadow
+  module:
+    - views
+  theme:
+    - olivero
+id: views_block__genekey_shadow_block_3
+theme: olivero
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:genekey_shadow-block_3'
+settings:
+  id: 'views_block:genekey_shadow-block_3'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility: {  }

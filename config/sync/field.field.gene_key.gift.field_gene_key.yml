@@ -1,0 +1,29 @@
+uuid: 80d10c87-8555-407e-9662-cdfc5c0d58ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.gene_key.field_gene_key
+    - genekey.gene_key_type.gift
+    - genekey.gene_key_type.root
+id: gene_key.gift.field_gene_key
+field_name: field_gene_key
+entity_type: gene_key
+bundle: gift
+label: 'Gene Key'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:gene_key'
+  handler_settings:
+    target_bundles:
+      root: root
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

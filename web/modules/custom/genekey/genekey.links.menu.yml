@@ -1,0 +1,5 @@
+entity.gene_key_type.collection:
+  title: 'Gene Key types'
+  description: 'Manage and CRUD actions on Gene Key type.'
+  parent: system.admin_structure
+  route_name: entity.gene_key_type.collection

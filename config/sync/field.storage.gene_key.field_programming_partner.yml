@@ -1,0 +1,21 @@
+uuid: 507c6c92-b38c-4468-81ba-285a91bbe7e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - genekey
+id: gene_key.field_programming_partner
+field_name: field_programming_partner
+entity_type: gene_key
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

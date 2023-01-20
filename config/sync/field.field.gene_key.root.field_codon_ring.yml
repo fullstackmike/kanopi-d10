@@ -1,0 +1,19 @@
+uuid: 90d5ca3c-8d5a-4394-808c-2d1961270ec9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.gene_key.field_codon_ring
+    - genekey.gene_key_type.root
+id: gene_key.root.field_codon_ring
+field_name: field_codon_ring
+entity_type: gene_key
+bundle: root
+label: 'Codon Ring'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

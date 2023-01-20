@@ -1,0 +1,7 @@
+name: Gene Key
+type: module
+description: Generate the Gene Key entity and provides functionality for this entity.
+package: Custom
+core_version_requirement: ^9 || ^10
+
+dependencies:

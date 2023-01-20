@@ -1,0 +1,19 @@
+uuid: 6d087a4a-fb2a-4302-a0c0-79ff72423641
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.gene_key.field_programming_partner
+    - genekey.gene_key_type.root
+id: gene_key.root.field_programming_partner
+field_name: field_programming_partner
+entity_type: gene_key
+bundle: root
+label: 'Programming Partner'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,10 @@
+entity.gene_key.edit_form:
+  route_name: entity.gene_key.edit_form
+  group: gene_key
+  title: Edit
+
+entity.gene_key.delete_form:
+  route_name: entity.gene_key.delete_form
+  group: gene_key
+  title: Delete
+  weight: 10

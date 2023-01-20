@@ -1,0 +1,29 @@
+uuid: 2c53162a-9d25-446a-95d3-5c1e992f83ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.gene_key.field_gene_key
+    - genekey.gene_key_type.root
+    - genekey.gene_key_type.shadow
+id: gene_key.shadow.field_gene_key
+field_name: field_gene_key
+entity_type: gene_key
+bundle: shadow
+label: 'Gene Key'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:gene_key'
+  handler_settings:
+    target_bundles:
+      root: root
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

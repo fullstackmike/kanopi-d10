@@ -1,0 +1,19 @@
+uuid: e093fcfc-5665-425d-9d57-d4a065ecbada
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.gene_key.field_physiology
+    - genekey.gene_key_type.root
+id: gene_key.root.field_physiology
+field_name: field_physiology
+entity_type: gene_key
+bundle: root
+label: Physiology
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

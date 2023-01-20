@@ -1,0 +1,4 @@
+administer gene key types:
+  title: 'Administer gene key types'
+  description: 'Maintain the types of gene key entity.'
+  restrict access: true

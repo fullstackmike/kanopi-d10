@@ -1,0 +1,19 @@
+uuid: bf840b17-e99e-4e96-a85f-e41dfa72ed1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.gene_key.field_amino_acid
+    - genekey.gene_key_type.root
+id: gene_key.root.field_amino_acid
+field_name: field_amino_acid
+entity_type: gene_key
+bundle: root
+label: 'Amino Acid'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

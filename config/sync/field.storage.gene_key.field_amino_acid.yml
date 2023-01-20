@@ -1,0 +1,21 @@
+uuid: f5e7f2c6-2561-45ef-a6a0-fdb3db26299a
+langcode: en
+status: true
+dependencies:
+  module:
+    - genekey
+id: gene_key.field_amino_acid
+field_name: field_amino_acid
+entity_type: gene_key
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

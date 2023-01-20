@@ -1,0 +1,19 @@
+uuid: c5c56395-2d54-4f7e-9704-53b96790aa70
+langcode: en
+status: true
+dependencies:
+  module:
+    - genekey
+id: gene_key.field_gene_key
+field_name: field_gene_key
+entity_type: gene_key
+type: entity_reference
+settings:
+  target_type: gene_key
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: b0339977-a1a4-49d2-b4ae-4d854fa8e725
+langcode: en
+status: true
+dependencies:
+  module:
+    - genekey
+id: gene_key.field_codon_ring
+field_name: field_codon_ring
+entity_type: gene_key
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

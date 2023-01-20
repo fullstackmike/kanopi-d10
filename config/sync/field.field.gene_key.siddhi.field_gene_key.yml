@@ -1,0 +1,29 @@
+uuid: 24a16062-e8c0-4314-abff-393cfce1716c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.gene_key.field_gene_key
+    - genekey.gene_key_type.root
+    - genekey.gene_key_type.siddhi
+id: gene_key.siddhi.field_gene_key
+field_name: field_gene_key
+entity_type: gene_key
+bundle: siddhi
+label: 'Gene Key'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:gene_key'
+  handler_settings:
+    target_bundles:
+      root: root
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

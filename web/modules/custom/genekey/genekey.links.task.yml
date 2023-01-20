@@ -1,0 +1,26 @@
+entity.gene_key.view:
+  title: 'View'
+  route_name: entity.gene_key.canonical
+  base_route: entity.gene_key.canonical
+entity.gene_key.edit_form:
+  title: 'Edit'
+  route_name: entity.gene_key.edit_form
+  base_route: entity.gene_key.canonical
+entity.gene_key.delete_form:
+  title: 'Delete'
+  route_name: entity.gene_key.delete_form
+  base_route: entity.gene_key.canonical
+  weight: 10
+entity.gene_key.collection:
+  title: 'Gene Keys'
+  route_name: entity.gene_key.collection
+  base_route: system.admin_content
+  weight: 10
+entity.gene_key_type.edit_form:
+  title: 'Edit'
+  route_name: entity.gene_key_type.edit_form
+  base_route: entity.gene_key_type.edit_form
+entity.gene_key_type.collection:
+  title: 'List'
+  route_name: entity.gene_key_type.collection
+  base_route: entity.gene_key_type.collection

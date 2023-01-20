@@ -1,0 +1,11 @@
+gene_key.type_add:
+  title: 'Add gene key type'
+  route_name: entity.gene_key_type.add_form
+  appears_on:
+    - entity.gene_key_type.collection
+
+gene_key.add_page:
+  title: 'Add gene key'
+  route_name: entity.gene_key.add_page
+  appears_on:
+    - entity.gene_key.collection

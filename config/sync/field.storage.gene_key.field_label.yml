@@ -1,0 +1,21 @@
+uuid: 2f3782fb-2e30-4bad-837b-88f5c53dfdb9
+langcode: en
+status: true
+dependencies:
+  module:
+    - genekey
+id: gene_key.field_label
+field_name: field_label
+entity_type: gene_key
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,10 @@
+uuid: ad9cde3e-02da-4752-b450-e9be8a57017f
+langcode: en
+status: true
+dependencies:
+  module:
+    - genekey
+id: gene_key.token
+label: Token
+targetEntityType: gene_key
+cache: true
